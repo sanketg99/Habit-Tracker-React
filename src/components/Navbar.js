@@ -69,7 +69,7 @@ const Navbar = ({ name }) => {
                   type="text"
                   className="form-control"
                   id="habitName"
-                  placeholder="Enter habit name"
+                  placeholder="Enter habit..."
                   autoComplete="off"
 
                 />
@@ -81,10 +81,10 @@ const Navbar = ({ name }) => {
                 className="btn btn-secondary"
                 data-bs-dismiss="modal"
               >
-                Cancel Habit
+                Close
               </button>
               <button type="button" className="btn btn-primary" onClick={handleSave}>
-                Save Habit
+                Save
               </button>
             </div>
           </div>
