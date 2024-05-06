@@ -63,7 +63,7 @@ body {
 .detail {
   cursor: pointer;
   color: white;
-  background-color: #fb813e;
+  background-color: #e15a2d;
   border: none;
   outline: none;
   padding: 8px 20px;
@@ -129,7 +129,7 @@ body {
   color: white;
   padding: 10px;
   border-radius: 50%;
-  background-color: #fb813e;
+  background-color: #e15a2d;
   margin-right: 10px;
 }
 
@@ -147,7 +147,7 @@ body {
 .log-btn {
   text-decoration: none;
   cursor: pointer;
-  background-color: #fb813e;
+  background-color: #e15a2d;
   padding: 10px;
   border-radius: 7px;
   margin-right: 10px;
@@ -167,7 +167,7 @@ body {
   cursor: pointer;
   padding: 10px;
   border-radius: 7px;
-  background-color: #fb813e;
+  background-color: #e15a2d;
 }
 
 .fa-trash:hover {
@@ -210,7 +210,7 @@ p {
 }
 
 .active {
-  color: #fb813e;
+  color: #e15a2d;
   ;
 }
 
