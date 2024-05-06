@@ -63,7 +63,7 @@ const Navbar = ({ name }) => {
             <div className="modal-body">
               <div className="mb-3">
                 <label htmlFor="exampleInputEmail1" className="form-label">
-                  HABIT NAME
+                  Habit Name
                 </label>
                 <input
                   type="text"
