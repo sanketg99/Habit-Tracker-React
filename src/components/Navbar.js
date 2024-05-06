@@ -2,14 +2,15 @@ import React, { useState } from "react";
 import { useEffect } from "react";
 import { useDispatch } from "react-redux";
 import { addHabit } from "../redux/redux/habitSlice";
-import {  toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
+import { toast } from "react-toastify";
+// import "react-toastify/dist/ReactToastify.css";
 
 const Navbar = ({ name }) => {
   // call use dispatch hook a variable call dispatch
   const dispatch = useDispatch();
 
   // change state acording time
+  // eslint-disable-next-line no-unused-vars
   const [hour, setHour] = useState(0);
   useEffect(() => {
     const date = new Date();
