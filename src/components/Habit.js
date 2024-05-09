@@ -1,8 +1,8 @@
 import React from "react";
 import { useDispatch } from "react-redux";
-import { deleteHabit } from "../redux/redux/habitSlice";
+import { deleteHabit } from "../redux/habitSlice";
 import { useNavigate } from "react-router-dom";
-import {  toast } from "react-toastify";
+import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 const Habit = ({ habit }) => {

@@ -1,5 +1,5 @@
 import { configureStore } from "@reduxjs/toolkit";
-import habitReducer from './redux/habitSlice'
+import habitReducer from './habitSlice';
 
 const store = configureStore({
   reducer: {

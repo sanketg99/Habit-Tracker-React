@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useEffect } from "react";
 import { useDispatch } from "react-redux";
-import { addHabit } from "../redux/redux/habitSlice";
+import { addHabit } from "../redux/habitSlice";
 import { toast } from "react-toastify";
 import { Link } from "react-router-dom";
 // import "react-toastify/dist/ReactToastify.css";
