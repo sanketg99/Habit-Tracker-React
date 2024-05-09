@@ -3,6 +3,7 @@ import { useEffect } from "react";
 import { useDispatch } from "react-redux";
 import { addHabit } from "../redux/redux/habitSlice";
 import { toast } from "react-toastify";
+import { Link } from "react-router-dom";
 // import "react-toastify/dist/ReactToastify.css";
 
 const Navbar = ({ name }) => {
@@ -28,9 +29,9 @@ const Navbar = ({ name }) => {
   return (
     <>
       <div className="navbar">
-        <h3>
+        <Link to="/"><h3>
           Habit Tracker
-        </h3>
+        </h3></Link>
         <div className="right-nav">
           <button className="detail">{name}</button>
           <button
@@ -38,7 +39,7 @@ const Navbar = ({ name }) => {
             data-bs-toggle="modal"
             data-bs-target="#staticBackdrop"
           >
-            Add Habits
+            + Add Habits
           </button>
         </div>
       </div>

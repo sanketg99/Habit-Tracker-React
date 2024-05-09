@@ -5,8 +5,8 @@ import Navbar from './Navbar'
 const Home = () => {
   return (
     <>
-      <Navbar name="Detail View"/>
-      <Habits/>
+      <Navbar name="Detail View" />
+      <Habits />
     </>
   )
 }
